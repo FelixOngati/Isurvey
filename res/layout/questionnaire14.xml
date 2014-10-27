@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#ffffff" >
+        
+        <View
+            android:id="@+id/view1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/goats_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/goats_heading"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/qst141"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst141"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/qst142"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst141"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_cows_born"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst142"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/total_cows_born_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst142"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_cattle_purchased"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst143"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/total_cattle_purchased_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst143"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_cattle_sold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst144"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/total_cattle_sold_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst144"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/price_per_cattle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst145"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/ppa_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst145"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst146"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:id="@+id/sp_qst146"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ems="12"
+            android:inputType="none"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/cattle_slaughtered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst147"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/cattle_slaughtered_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst147"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_reason_for_sale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst148"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:id="@+id/sp_qst148"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ems="12"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_next10"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/forward"
+            android:text="@string/lblBtnNext"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</ScrollView>

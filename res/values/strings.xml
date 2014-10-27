@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ISurvey</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblUsername">Username</string>
+    <string name="lblPassword">Password</string>
+    <string name="lblBtnLogin">Login</string>
+    <string name="lblwelcome">Welcome</string>
+    <string name="county">Select County</string>
+    <string name="subcounty">Select Sub-County</string>
+    <string name="livelihoodzone">Livelihood Zone</string>
+    <string name="sentinelsite">Sentinel Site</string>
+    <string name="householdhead">Name of Household Head</string>
+    <string name="hintholdhead">Household Head</string>
+    <string name="householdcode">Household Code</string>
+    <string name="lblBtnNext">Next Page</string>
+    <string name="respondent">Name of Respondent</string>
+    <string name="hintrespondent">Respondent Name</string>
+    <string name="malemembers">What\'s the number of male members in the household?</string>
+    <string name="hintmalemembers">Number of Male Members</string>
+    <string name="femalemembers">What\'s the number of female members in the household?</string>
+    <string name="hintfemalemembers">Number of Female Members</string>
+    <string name="lblInterviewDate">Interview Date</string>
+    <string name="qst121">1. Total number of Camels owned today</string>
+    <string name="hintqst121"></string>
+    <string name="qst122">2. Total number of Camels born during last 4 weeks</string>
+    <string name="hintqst122"></string>
+    <string name="qst123">3. Total number of Camels purchased during last 4 weeks</string>
+    <string name="hintqst123"></string>
+    <string name="qst124">4. Total number of Camels sold during last 4 weeks</string>
+    <string name="hintqst124"></string>
+    <string name="qst125">5. Average price per Camel sold (PPA) in KShs</string>
+    <string name="hintqst125"></string>
+    <string name="qst126">6. Point Of Sale </string>
+    <string name="qst127">7. Number of Cattle Died/Slaughtered/Lost during last 4 weeks</string>
+    <string name="hintqst127"></string>
+    <string name="qst128">8. Main Reason for Loss</string>
+    <string name="hintqst128"></string>
+    <string name="qst151">1. Total number of Sheep owned today</string>
+    <string name="hintqst151"></string>
+    <string name="qst152">2. Total number of Sheep born during last 4 weeks</string>
+    <string name="hintqst152"></string>
+    <string name="qst153">3. Total number of Sheep purchased during last 4 weeks</string>
+    <string name="hintqst153"></string>
+    <string name="qst154">4. Total number of Sheep sold during last 4 weeks</string>
+    <string name="hintqst154"></string>
+    <string name="qst155">5. Average price per Sheep sold (PPA) in KShs</string>
+    <string name="hintqst155"></string>
+    <string name="qst156">6. Point Of Sale </string>
+    <string name="qst157">7. Number of Sheep Died/Slaughtered/Lost during last 4 weeks</string>
+    <string name="hintqst157"></string>
+    <string name="qst158">8. Main Reason for Loss</string>
+    <string name="hintqst158"></string> 
+    <string name="qst161">1. Total number of Donkeys owned today</string>
+    <string name="hintqst161"></string>
+    <string name="qst162">2. Total number of Donkeys born during last 4 weeks</string>
+    <string name="hintqst162"></string>
+    <string name="qst163">3. Total number of Donkeys purchased during last 4 weeks</string>
+    <string name="hintqst163"></string>
+    <string name="qst164">4. Total number of Donkeys sold during last 4 weeks</string>
+    <string name="hintqst164"></string>
+    <string name="qst165">5. Average price per Donkeys sold (PPA) in KShs</string>
+    <string name="hintqst165"></string>
+    <string name="qst166">6. Point Of Sale </string>
+    <string name="qst167">7. Number of Donkeys Died/Slaughtered/Lost during last 4 weeks</string>
+    <string name="hintqst167"></string>
+    <string name="qst168">8. Main Reason for Loss</string>
+    <string name="hintqst168"></string>
+    <string name="qst171">1. Total number of Poultry owned today</string>
+    <string name="hintqst171"></string>
+    <string name="qst172">2. Total number of Poultry born during last 4 weeks</string>
+    <string name="hintqst172"></string>
+    <string name="qst173">3. Total number of POultry purchased during last 4 weeks</string>
+    <string name="hintqst173"></string>
+    <string name="qst174">4. Total number of Poultry sold during last 4 weeks</string>
+    <string name="hintqst174"></string>
+    <string name="qst175">5. Average price per Poultry sold (PPA) in KShs</string>
+    <string name="hintqst175"></string>
+    <string name="qst176">6. Point Of Sale </string>
+    <string name="qst177">7. Number of Poultry Died/Slaughtered/Lost during last 4 weeks</string>
+    <string name="hintqst177"></string>
+    <string name="qst178">8. Main Reason for Loss</string>
+    <string name="hintqst178"></string>
+    <string name="sync_data">Sync Data</string>
+    <string name="sync_title">Syncronize</string>
+    <string name="cattle_heading"><u>i). CATTLE</u></string>
+    <string name="total_cows_owned"> (a). Total number of Cattle owned today</string>
+    <string name="total_cattle">Total</string>
+    <string name="total_cows_born"> (b). Total number of Cattle born during last 4 weeks</string>
+    <string name="total_born">Born</string>
+    <string name="total_cattle_purchased"> (c). Total number of Cattle purchased during last 4 weeks</string>
+    <string name="total_purchased">Purchased</string>
+    <string name="total_cattle_sold"> (d). Total number of Cattle sold during last 4 weeks</string>
+    <string name="total_sold">Sold</string>
+    <string name="price_per_cattle"> (e). Average price per Cattle sold (PPA) in KShs</string>
+    <string name="ppa">PPA</string>
+    <string name="pos"> (f). Point Of Sale</string>
+    <string name="cattle_slaughtered"> (g). Number of Cattle Died/Slaughtered/Lost during last 4 weeks</string>
+    <string name="cattle_slaughtered_hint">Slaughtered</string>
+    <string name="main_reason_for_death"> (h). Main Reason for Loss</string>
+    <string name="main_reason_for_sale2"> (i). Second main Reason for Loss</string>
+    
+    
+    <string name="goats_heading"><u>ii). GOATS</u></string>
+    <string name="qst141">1. Total number of Goats owned today</string>
+    <string name="hintqst141"></string>
+    <string name="qst142">2. Total number of Goats born during last 4 weeks</string>
+    <string name="hintqst142"></string>
+    <string name="qst143">3. Total number of Goats purchased during last 4 weeks</string>
+    <string name="hintqst143"></string>
+    <string name="qst144">4. Total number of Goats sold during last 4 weeks</string>
+    <string name="hintqst144"></string>
+    <string name="qst145">5. Average price per Goats sold (PPA) in KShs</string>
+    <string name="hintqst145"></string>
+    <string name="qst146">6. Point Of Sale </string>
+    <string name="qst147">7. Number of Goats Died/Slaughtered/Lost during last 4 weeks</string>
+    <string name="hintqst147"></string>
+    <string name="qst148">8. Main Reason for Loss</string>
+    <string name="hintqst148"></string>   
+
+    <string name="title_activity_livestock_general">LIVESTOCK</string>
+    <string name="keep_livestock_qn">Does your household keep any livestock?</string>
+    <string name="title_activity_questionnaire14">Livestock - Goats</string>
+    
+     
+    <string-array name="livestock_options">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    
+    <string-array name="point_of_sale">
+        <item>Market</item>
+        <item>Farm Gate</item>
+    </string-array>
+    <string-array name="reason_for_loss">
+        <item>Disease</item>
+        <item>Starvation</item>
+        <item>Dehydration</item>
+        <item>Conflict</item>
+        <item>Predation</item>
+        <item>Slaughter</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="county_list">
+        <item>Kitui</item>
+        <item>Tana River</item>
+        <item>Turkana</item>
+    </string-array>
+    <string-array name="kitui_subcounty">
+        <item>Ikutha</item>
+        <item>Kabati</item>
+        <item>Chuluni</item>
+        <item>Mwitika</item>
+        <item>Mutitu</item>
+        <item>Mwitika</item>
+        <item>Yatta Kitui</item>
+        <item>Central Kitui</item>
+        <item>Mutomo</item> 
+    </string-array>
+    <string-array name="tanariver_subcounty">
+        <item>Garsen</item>
+        <item>Bangale</item>
+        <item>Bura</item>
+        <item>Kipini</item>
+        <item>Wenje</item>
+        <item>Galole</item>
+        <item>Madogo</item>        
+    </string-array>
+    <string-array name="turkana_subcounty">
+        <item>Turkwel</item>
+        <item>Kibish</item>
+        <item>Kaaling</item>
+        <item>Kolokol</item>
+        <item>Kainuk</item>
+        <item>Lokichar</item>
+        <item>Lokori</item>
+        <item>Kerio</item>
+        <item>Lapur</item>
+        <item>Oropoi</item>
+        <item>Kalokol</item>
+        <item>Loima</item>
+        <item>Katilu</item>
+        <item>Lomelo</item>
+        <item>Kakuma</item>
+        <item>Lokitaung</item>
+        <item>Lokichogio</item>        
+    </string-array>
+    <string-array name="stikutha">
+        <item>Kasaala</item>
+        <item>Kiathu</item>
+    </string-array>
+    <string-array name="stkabati">
+        <item>Katutu</item>
+    </string-array>
+    <string-array name="stchuluni">
+        <item>Kyanika</item>
+        <item>Mbitini</item>
+    </string-array>
+    <string-array name="stmwitika">
+        <item>Malalani</item>
+        <item>Ndetani</item>
+    </string-array>
+    <string-array name="stmutitu">
+        <item>Musukuni</item>
+    </string-array>
+    <string-array name="styattakitui">
+        <item>Nyanyaa</item>
+        <item>Nzambia</item>
+    </string-array>
+    <string-array name="stcentralkitui">
+        <item>Utooni</item>
+    </string-array>
+    <string-array name="stmutomo">
+        <item>Vote</item>
+    </string-array>
+    <string-array name="stgarsen">
+        <item>Assa</item>
+        <item>Garsen</item>
+        <item>Tarasaa</item>
+    </string-array>
+    <string-array name="stbangale">
+        <item>Bangale</item>
+        <item>Bawa</item>
+    </string-array>
+    <string-array name="stbura">
+        <item>Bura</item>
+        <item>Nanighi</item>
+    </string-array>
+    <string-array name="stkipini">
+        <item>Chara</item>
+        <item>Kilelengwani</item>
+    </string-array>
+    <string-array name="stwenje">
+        <item>Hara</item>
+    </string-array>
+    <string-array name="stgalole">
+        <item>Laza Township</item>
+        <item>Milalulu</item>
+        <item>Wayu</item>
+    </string-array>
+    <string-array name="stmadogo">
+        <item>Madogo</item>
+        <item>Sala</item>
+    </string-array>
+    <string-array name="stturkwel">
+        <item>Kablagor</item>
+        <item>Napeililim</item>
+        <item>Naremit</item>
+    </string-array>
+    <string-array name="stkibish">
+        <item>Kaemothia</item>
+    </string-array>
+    <string-array name="stkaaling">
+        <item>Kaeris</item>
+    </string-array>
+    <string-array name="stkalokol">
+        <item>Kakimapus</item>
+        <item>Loboolo</item>
+    </string-array>
+    <string-array name="stkainuk">
+        <item>Kalamngorok</item>
+    </string-array>
+    <string-array name="stkakuma">
+        <item>Lopur</item>
+    </string-array>
+    <string-array name="stkatilu">
+        <item>Lokapel</item>
+    </string-array>
+    <string-array name="stkerio">
+        <item>Kerio</item>
+    </string-array>
+    <string-array name="stlapur">
+        <item>Kokuro</item>
+    </string-array>
+    <string-array name="stloima">
+        <item>Loima</item>
+    </string-array>
+    <string-array name="stlokichar">
+        <item>Kalapata</item>
+        <item>Napusimoru</item>
+    </string-array>
+    <string-array name="stlokichogio">
+        <item>Nanam</item>
+    </string-array>
+    <string-array name="stlokitaung">
+        <item>Nachukui</item>
+    </string-array>
+    <string-array name="stlokori">
+        <item>Katilia</item>
+        <item>Lokwamosing</item>
+    </string-array>
+    <string-array name="stlomelo">
+        <item>Lokwii</item>
+    </string-array>
+    <string-array name="storopoi">
+        <item>Letea</item>
+    </string-array>
+    
+
+</resources>

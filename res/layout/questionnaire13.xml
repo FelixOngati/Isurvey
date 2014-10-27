@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#ffffff" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/keep_livestock_qn"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:id="@+id/livestock_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ems="12"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/cattle_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/cattle_heading"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/total_cows_owned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_cows_owned"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/total_cattle_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/total_cattle"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_cows_born"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_cows_born"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/total_cows_born_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/total_born"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_cattle_purchased"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_cattle_purchased"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/total_cattle_purchased_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/total_purchased"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_cattle_sold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_cattle_sold"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/total_cattle_sold_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/total_sold"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/price_per_cattle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price_per_cattle"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/ppa_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/ppa"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pos"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:id="@+id/pos_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ems="12"
+            android:inputType="none"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/cattle_slaughtered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cattle_slaughtered"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/cattle_slaughtered_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/cattle_slaughtered_hint"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_reason_for_death"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_reason_for_death"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:id="@+id/reason_for_death_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ems="12"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_reason_for_sale2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_reason_for_sale2"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:id="@+id/reason_for_sale_sp2	"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ems="12"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textSize="20sp" />
+        
+        <Button
+            android:id="@+id/btn_next6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/forward"
+            android:text="@string/lblBtnNext"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>
