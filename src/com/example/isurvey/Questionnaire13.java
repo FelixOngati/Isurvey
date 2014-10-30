@@ -105,7 +105,7 @@ public class Questionnaire13 extends ActionBarActivity implements
 	@Override
 	public void onClick(View v) {
 		
-		Intent i = new Intent(this, Questionnaire15.class);
+		Intent i = new Intent(this, Questionnaire14.class);
 		startActivity(i);
 			}
 	

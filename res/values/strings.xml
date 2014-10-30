@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">ISurvey</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -123,8 +122,111 @@
     <string name="title_activity_livestock_general">LIVESTOCK</string>
     <string name="keep_livestock_qn">Does your household keep any livestock?</string>
     <string name="title_activity_questionnaire14">Livestock - Goats</string>
+    <string name="qst1111">Consumption based coping strategies</string>
     
-     
+    <!-- Milk Production strings -->
+    <string name="title_activity_questionnaire18">Milk Production - 1</string>
+    <string name="title_activity_questionnaire19">Milk Production - 2</string>
+    <string name="milk_qn">Did you milk any animals in the last 4 weeks?</string>
+    <string name="prod_species"><b><u>Milk production by livestock species</u></b></string>
+    <string name="cow_sh"><u><i>a) COW</i></u></string>
+    <string name="camel_sh"><u><i>b) CAMEL</i></u></string>
+    <string name="goat_sh"><u><i>c) GOAT</i></u></string>
+    <string name="sheep_sh"><u><i>d) SHEEP</i></u></string>
+    <string name="amt_milked">i) AVERAGE amount milked per day in 750ml bottles?</string>
+    <string name="amt_consumed">ii) AVERAGE amount consumed per day by the household in 750ml bottles?</string>
+    <string name="amt_sold">iii) AVERAGE amount sold per day by the household in 750ml bottles?</string>
+    <string name="milk_price">iv) AVERAGE price of milk per 750ml bottle in (Ksh)</string>
+    <string name="qst199">Who in the household consumed milk in the last 4 weeks?</string>
+    <!-- End of milk production -->
+    
+    <!-- Stocks -->
+    <string name="title_activity_questionnaire110">3. STOCKS</string>
+    <string name="qst1101">3.1) Do you have food stocks (cereals and legumes)?</string>
+    <string name="qst1102">3.2) What are the sources?</string>
+    <string name="qst1103">3.3) How long is the stock expected to last? (Days)</string>
+    <!-- End of stocks -->
+    
+    <string name="qst1112">During the last 7 days, were there days (and if so, how many) when your 
+        household had to use any of the following strategies to cope with lack of food or money to buy it?</string>
+    <string name="qst1113">1. Relied on less preferred and/or less expensive food</string>
+    <string name="qst1114">2. Borrowed food, or relied on help from friends or relatives</string>
+    <string name="qst1115">3. Reduced the number of meals eaten per day</string>
+    <string name="qst1116">4. Reduced the portion size of meals</string>
+    <string name="qst1117">5. Reduced the quantity of food consumed by adults/mothers to ensure that children had enough to eat</string>
+    <string name="qst1118">Livelihood based coping strategies</string>
+    <string name="qst1119">During the past 30 days, did anyone in your household have to engage 
+        in any following behaviours due to a lack of food or a lack of money to buy food?</string>
+    <string name="qst1120">1. Sold household assets/goods (radio, furniture, refrigerator, television, jewelry etc..)</string>
+    <string name="qst1121">2. Reduced non food expenses on health (including drugs) and education</string>
+    <string name="qst1122">3. Sold productive assets or means of transport (sewing machine, wheel barrow, bicycle, car, etc..)</string>
+    <string name="qst1123">4. Spent savings</string>
+    <string name="qst1124">5. Borrowed money / food from a formal lender / bank</string>
+    <string name="qst1125">6. Sold ​house or land</string>
+    <string name="qst1126">7. Withdrew children from school</string>
+    <string name="qst1127">8. Sold last female animals</string>
+    <string name="qst1128">9. Begging</string>
+    <string name="qst1129">10. Sold more animals (non productive) than usual</string>
+    <string name="qst11121"> Nutrition  and  Household Food Consumption</string>
+    <string name="qst11122">How many days over the last 7 days, did members of your household eat the following food items, prepared and/or
+         consumed at home , and what was their source?</string>
+    <string name="qst11123">Foods</string>
+    <string name="qst11124">1. Cereals and grain: Rice, Pasts, bread/cake and/or doughnuts, sorghum, millet, maize</string>
+    <string name="qst11125">2. Roots and Tubers: Potato, yam, cassava, white sweet potato, taro and /or other tubers</string>
+    <string name="qst11126">3. Pulses/nuts: Beans, cowpeas, peanuts, lentils, nut, soy, pigeon peas and/or other nuts</string>
+    <string name="qst11127">4. Orange vegetables (vegetables rich in vitamin A): Carrots, red peppers, pumpkin, orange sweet potato</string>
+    <string name="qst11128">5. Green leafy vegetables: Spinach, broccoli, amaranth, cassava leaves and/or other dark green leaves</string>
+    <string name="qst11129">6. Other vegetables: Onion, tomatoes, cucumber, radishes, green beans, peas, lettuce, etc.</string>
+    <string name="qst111210">7. Orange fruits (Fruits rich in vitamin A): Mango, papaya, apricot, peach tree, tomato</string>
+    <string name="qst111211">8. Other fruits: Banana, apple, lemon, tangerine</string>
+    <string name="qst111212">9. Meat: Goat, beef, chicken, pork, blood  (meat in large quantities and not as a condiment)</string>
+    <string name="qst111213">10. Liver, kidney, heart and / or other organ meats</string>
+    <string name="qst111214">11. Fish / shellfish: Dried fish, canned tuna and/or other seafood (fish in large quantities and not as a condiment)</string>
+    <string name="qst111215">12. Eggs</string>
+    <string name="qst111216">13. Milk and other dairy products: Fresh milk/sour, yogurt, cheese, other dairy products
+                             (Exclude margarine/butter or small amounts of milk for tea / coffee) </string>
+    <string name="qst111217">14. Oil/fat/butter: Vegetable oil, palm oil, shea butter, margarine, other fats / oil</string>
+    <string name="qst111218">15. Sugar or sweet: Sugar, honey, jam, cakes, candy, cookies, pastries, sugary drinks</string>
+    <string name="qst111219">16. Condiments / spices: Tea, coffee, cocoa, salt, garlic, spices, yeast, baking powder, tomato sauce, 
+        meat or fish in very small quantities as condiments?</string>
+
+    <!-- Crop Prodcution -->
+    <string name="title_activity_questionnaire115">2. CROP PRODUCTION</string>
+    <string name="title_activity_questionnaire116">2. CROP PRODUCTION - 1</string>
+    <string name="title_activity_questionnaire117">2. CROP PRODUCTION - 2</string>
+    <string name="title_activity_questionnaire118">2. CROP PRODUCTION - 3</string>
+    
+    <string name="crop_qn">Does the household grow any food crops?</string>
+    <string name="maize_sh"><u><i>a) MAIZE</i></u></string>
+    <string name="millet_sh"><u><i>b) MILLET</i></u></string>
+    <string name="sorghum_sh"><u><i>c) SORGHUM</i></u></string>
+    <string name="beans_sh"><u><i>d) BEANS</i></u></string>
+    <string name="cowpeas_sh"><u><i>e) COWPEAS</i></u></string>
+    <string name="pigeonpeas_sh"><u><i>f) PIGEON PEAS</i></u></string>
+    <string name="greengrams_sh"><u><i>g) GREEN GRAMS</i></u></string>
+    <string name="others_sh"><u><i>h) OTHERS</i></u></string>
+    <string name="area_harvested">i) Area harvested (in acres) in the last 4 weeks?</string>
+    <string name="bags_harvested">ii) How many (90Kg) bags did you harvest? </string>
+    <string name="bags_sold">iii) How many (90Kg) bags did you sell?  </string>
+    <string name="bags_price">iv) What was the average price per Kg?</string>
+
+    <!-- End of crop production -->
+    
+     <string-array name="yes_no_opt">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="stock_sources">
+        <item>Production</item>
+        <item>Aid</item>
+        <item>Purchase</item>
+    </string-array>
+    <string-array name="milk_consumers">
+        <item>Children under five years old</item>
+        <item>Breast feeding mothers</item>
+        <item>The Sick (children and adults)</item>
+        <item>Everyone in the household</item>
+    </string-array>
     <string-array name="livestock_options">
         <item>Yes</item>
         <item>No</item>

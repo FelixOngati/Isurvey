@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#ffffff" >
+
+        <TextView
+            android:id="@+id/tv_goat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/goat_sh"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_qst191"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_milked"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst191"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_qst192"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_consumed"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst192"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_qst193"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_sold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst193"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_qst194"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/milk_price"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst194"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_sheep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/sheep_sh"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_qst195"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_milked"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst195"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_qst196"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_consumed"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst196"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_qst197"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_sold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst197"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_qst198"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/milk_price"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst198"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_consumed_milk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/qst199"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/sp_qst199"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_next12"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/forward"
+            android:text="@string/lblBtnNext"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

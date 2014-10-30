@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#ffffff" >
+
+        <TextView
+            android:id="@+id/tv_qst181"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/milk_qn"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:id="@+id/sp_qst181"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_prod_species"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/prod_species"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_cow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/cow_sh"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/tv_qst182"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_milked"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst182"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst172"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_qst183"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_consumed"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst183"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst172"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_qst184"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_sold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst184"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst172"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_qst185"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/milk_price"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst185"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst172"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        
+        
+        
+        <TextView
+            android:id="@+id/tv_camel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/camel_sh"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/tv_qst186"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_milked"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst186"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst172"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_qst187"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_consumed"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst187"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst172"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_qst188"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt_sold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst188"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst172"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_qst189"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/milk_price"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/et_qst189"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="@string/hintqst172"
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_next11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/forward"
+            android:text="@string/lblBtnNext"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

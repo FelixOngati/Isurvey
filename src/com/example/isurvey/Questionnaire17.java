@@ -109,8 +109,8 @@ public class Questionnaire17 extends Activity implements OnClickListener{
 
 	@Override
 	public void onClick(View v) {
-		//Intent i = new Intent(this, Questionnaire16.class);
-		//startActivity(i);
+		Intent i = new Intent(this, Questionnaire18.class);
+		startActivity(i);
 		
 	}
 

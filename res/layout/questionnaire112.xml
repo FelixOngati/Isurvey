@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#ffffff" >
+        
+                
+        <TextView
+            android:id="@+id/tv_qst11121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst1121"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        
+        <TextView
+            android:id="@+id/tv_qst11122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst11122"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tv_qst11123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst11123"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/et_qst11123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/tv_qst11124"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst11124"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <EditText
+            android:id="@+id/et_qst11124"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+             
+        <TextView
+            android:id="@+id/tv_qst11125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst11125"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+        <EditText
+            android:id="@+id/et_qst11125"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/tv_qst11126"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst11126"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+        <EditText
+            android:id="@+id/et_qst11126"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/tv_qst11127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst11127"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+        <EditText
+            android:id="@+id/et_qst11127"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_qst11128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst11128"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:id="@+id/tv_qst11129"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst11129"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:id="@+id/tv_qst111210"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst111210"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/et_qst111210"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_qst111211"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst111211"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/et_qst111211"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_qst111212"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst111212"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/et_qst111212"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_qst111213"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst111213"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/et_qst111213"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_qst1112114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst111214"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/et_qst111214"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_qst111215"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst111215"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/et_qst111215"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_qst111216"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst111216"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/et_qst111216"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />        
+        <TextView
+            android:id="@+id/tv_qst111217"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst111217"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/et_qst111217"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_qst111218"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst111218"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/et_qst111218"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_qst111219"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qst111219"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/et_qst111219"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        
+        <Button
+            android:id="@+id/btn_next13"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/forward"
+            android:text="@string/lblBtnNext"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+     </LinearLayout>
+    
+
+</ScrollView>
